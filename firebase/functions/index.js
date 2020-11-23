@@ -11,9 +11,9 @@ exports.submit = functions.https.onRequest((req, res) => {
     var message = req.body.message ? req.body.message : 'missing';
 
     const send = require('gmail-send')({
-      user: 'adamthomastesting@gmail.com',
-      pass: 'Humber1234',
-      to:   'adamthomastesting@gmail.com',
+      user: 'email@gmail.com',
+      pass: 'gmail-password',
+      to:   'email@gmail.com',
       subject: 'Contact Form Submission',
     });
 
