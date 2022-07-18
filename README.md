@@ -1,4 +1,4 @@
-# react-firebase-forms
+# A Basic Introduction to Firebase and Forme
 
 A basic example of integrating a React.js form with a Firebase Function.
 
