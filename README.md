@@ -13,24 +13,24 @@ If you want to deploy this application to Firebase, clonce this repository, and 
 3. Run `firebase init`. Choose Functions (using the arrow keys, space to selects, and enter to continue).
 4. Choose an existing prject or create a new one.
 5. Answer the following questions:
-
-```
-? What language would you like to use to write Cloud Functions? JavaScript
-? Do you want to use ESLint to catch probable bugs and enforce style? Y
-? File functions/package.json already exists. Overwrite? Y
-? File functions/.eslintrc.json already exists. Overwrite? Y
-? File functions/index.js already exists. Overwrite? N
-? File functions/.gitignore already exists. Overwrite? N
-? Do you want to install dependencies with npm now? Y
-```
+    
+    ```
+    ? What language would you like to use to write Cloud Functions? JavaScript
+    ? Do you want to use ESLint to catch probable bugs and enforce style? Y
+    ? File functions/package.json already exists. Overwrite? Y
+    ? File functions/.eslintrc.json already exists. Overwrite? Y
+    ? File functions/index.js already exists. Overwrite? N
+    ? File functions/.gitignore already exists. Overwrite? N
+    ? Do you want to install dependencies with npm now? Y
+    ```
 
 6. Run `firebase deploy`.
-
-You will now have a hosted function! Click on the Project Console link, then Functions (on the left hand side of your Project Console), copy the URL under the Trigger colyumn, it should look something like this:
-
-https://us-central1-project-name.cloudfunctions.net/submit
-
-You will need this to place in the code of the contact form.
+    
+    You will now have a hosted function! Click on the Project Console link, then Functions (on the left hand side of your Project Console), copy the URL under the Trigger column, it should look something like this:
+    
+    https://us-central1-project-name.cloudfunctions.net/submit
+    
+    You will need this to place in the code of the contact form.
 
 ## Deploy React App
 
@@ -42,24 +42,27 @@ You will need this to place in the code of the contact form.
 6. Choose an existing prject or create a new one.
 7. Answer the following questions:
 
-```
-? What do you want to use as your public directory? build
-? Configure as a single-page app (rewrite all urls to /index.html)? Y
-? File build/index.html already exists. Overwrite? N
-```
+    ```
+    ? What do you want to use as your public directory? build
+    ? Configure as a single-page app (rewrite all urls to /index.html)? Y
+    ? File build/index.html already exists. Overwrite? N
+    ```
 
 6. Run `firebase deploy`.
 
-You can now tet out the provided Hosting URL, it should look something like this:
+    You can now tet out the provided Hosting URL, it should look something like this:
 
-Hosting URL: https://project-name.firebaseapp.com
+    https://project-name.firebaseapp.com
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/react-firebase-forms.html
+
+*** 
+
+## Repo Resources
 
 * [React.js](https://reactjs.org/)
 * [Firebase](https://firebase.google.com/)
-
-Full tutorial URL: https://codeadam.ca/learning/react-firebase-forms.html
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
