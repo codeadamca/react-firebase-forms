@@ -4,7 +4,8 @@ A basic example of integrating a React.js form with a Firebase Function.
 
 If you want to deploy this application to Firebase, clonce this repository, and then follow these steps:
 
-> Note: You will need to [install the Firebase CLI](https://firebase.google.com/docs/cli) and then run `firebase login`.
+> [!Note]
+> You will need to [install the Firebase CLI](https://firebase.google.com/docs/cli) and then run `firebase login`.
 
 ## Deploy Firebase Functions
 
